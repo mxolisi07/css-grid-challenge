@@ -1,0 +1,84 @@
+@media only screen and (max-width: 992px) {
+    .cards-container {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .cards-top { 
+        grid-template-columns: 1fr; 
+    }
+
+    .cards-bottom { 
+        grid-template-columns: 1fr; 
+    }
+
+    .card1, .card2, .card3, .card4, .card5 {
+        padding: 24px;
+        height: fit-content;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .content-container {
+        width: 96%;
+        padding: 40px 0;
+    }
+
+    .cards-container { gap: 20px; }
+    .left-card { 
+        gap: 20px; 
+    }
+
+    .cards-top,
+    .cards-bottom {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .card1, .card2, .card3, .card4, .card5 {
+        padding: 24px;
+        height: fit-content;
+        width: 100%;
+    }
+
+    .card1::before { 
+        display: none; 
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .content-container {
+        width: 100%;
+        padding: 60px 40px;
+    }
+
+    .cards-container { 
+        gap: 32px; 
+    }
+
+    .left-card { 
+        gap: 32px; 
+    }
+
+    .cards-top,
+    .cards-bottom { 
+        gap: 32px; 
+    }
+
+    .card1, .card2, .card3, .card4, .card5 { 
+        padding: 32px; 
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .content-container { 
+        padding: 70px 35px; 
+    }
+
+    .card1, .card2, .card3, .card4, .card5 {
+        padding: 24px;
+        height: fit-content;
+        width: 100%;
+    }
+}
