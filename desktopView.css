@@ -1,0 +1,203 @@
+@media only screen and (min-width: 1600px) {
+    .content-container { 
+        max-width: 1340px; 
+    }
+
+    .cards-container { 
+        gap: 38px; 
+    }
+
+    .left-card { 
+        gap: 29px; 
+    }
+
+    .cards-top, .cards-bottom { 
+        gap: 38px; 
+    }
+
+    .card1, .card2, .card3, .card4, .card5 { 
+        padding: 38px; 
+    }
+
+    .card1, .card2 { 
+        min-height: 346px; 
+    }
+
+    .card4, .card5 { 
+        min-height: 323px; 
+    }
+
+    .card3 { 
+        min-height: 698px; 
+    }
+
+    .card1::before { 
+        font-size: 264px; 
+    }
+
+    .image img { 
+        width: 36px; height: 36px; 
+    }
+
+    .header { 
+        line-height: 18px; 
+    }
+
+    #name { 
+        font-size: 14px; 
+    }
+
+    #status { 
+        font-size: 13px; 
+    }
+
+    #quote-heading { 
+        margin-top: 29px; 
+        font-size: 24px; 
+        line-height: 29px; 
+    }
+
+    #quote-body { 
+        margin-top: 19px; 
+        font-size: 16px; 
+        line-height: 22px; 
+    }
+}
+
+@media only screen and (min-width: 1921px) {
+    .content-container { 
+        max-width: 1670px; 
+    }
+
+    .cards-container { 
+        gap: 48px; 
+    }
+
+    .left-card { 
+        gap: 36px; 
+    }
+
+    .cards-top, .cards-bottom { 
+        gap: 48px; 
+    }
+
+    .card1, .card2, .card3, .card4, .card5 { 
+        padding: 48px; 
+        border-radius: 10px; 
+    }
+
+    .card1, .card2 { 
+        min-height: 432px; 
+    }
+
+    .card4, .card5 { 
+        min-height: 404px; 
+    }
+
+    .card3 { 
+        min-height: 872px; 
+    }
+
+    .card1::before { 
+        font-size: 330px; 
+    }
+
+    .image img { 
+        width: 45px; 
+        height: 45px; 
+    }
+
+    .header { 
+        line-height: 23px; 
+    }
+
+    #name { 
+        font-size: 18px; 
+    }
+
+    #status { 
+        font-size: 16px; 
+    }
+
+    #quote-heading { 
+        margin-top: 36px; 
+        font-size: 30px; 
+        line-height: 36px; 
+    }
+
+    #quote-body { 
+        margin-top: 24px; 
+        font-size: 20px; 
+        line-height: 27px; 
+    }
+}
+
+@media only screen and (min-width: 2160px) {
+    .content-container { 
+        max-width: 2160px; 
+    }
+
+    .card1 { 
+        height: fit-content;
+        width: 1280px;
+    }
+
+    .card2{ 
+        height: fit-content;
+        width: 680px; 
+    }
+
+    .card3 { 
+        height: 80px;
+        width: 450px;
+    }
+
+    .card4 { 
+        height: fit-content;
+        width: 680px;
+    }
+
+    .card5 { 
+        height: fit-content;
+        width: 1280px;
+    }
+    
+    .cards-bottom { 
+        margin-top: 45px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 4.5em);
+    }
+
+    .header {
+        line-height: 25px;
+        width: 150px;
+    }
+
+    .image img {
+        border-radius: 28px;
+        width: 55px;
+        height: 55px;
+        border: 2px solid white;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .content-container { 
+        width: 94%; 
+    }
+
+    .cards-container { 
+        gap: 24px; 
+    }
+
+    .cards-top, .cards-bottom { 
+        gap: 24px; 
+    }
+
+    .card1, .card2, .card3, .card4, .card5 { 
+        padding: 28px; 
+    }
+}
