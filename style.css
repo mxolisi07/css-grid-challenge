@@ -271,10 +271,61 @@ body {
 
 @media only screen and (min-width: 2160px) {
     .content-container { 
-        max-width: 1950px; 
+        max-width: 2160px; 
     }
 
-    .cards-container { 
+    .card1 { 
+        height: fit-content;
+        width: 1280px;
+         
+    }
+
+    .card2{ 
+        height: fit-content;
+        width: 680px;
+         
+    }
+
+    .card3 { 
+        height: 80px;
+        width: 450px;
+        
+    }
+
+    .card4 { 
+        height: fit-content;
+        width: 680px;
+        
+         
+    }
+
+    .card5 { 
+        height: fit-content;
+        width: 1280px;
+    }
+    
+    .cards-bottom { 
+        margin-top: 45px;
+    }
+
+    .container {
+    display: grid;
+    grid-template-columns: repeat(2, 4.5em);
+    }
+
+    .header {
+        line-height: 25px;
+        width: 150px;
+    }
+
+    .image img {
+        border-radius: 28px;
+        width: 55px;
+        height: 55px;
+        border: 2px solid white;
+    }
+
+    /* .cards-container { 
         gap: 56px; 
     }
 
@@ -292,11 +343,12 @@ body {
     }
 
     .card1, .card2 { 
-        min-height: 504px; 
+        height: fit-content;
+         
     }
 
     .card4, .card5 { 
-        min-height: 471px; 
+        height: fit-content; 
     }
 
     .card3 { 
@@ -334,7 +386,7 @@ body {
         margin-top: 28px; 
         font-size: 23px; 
         line-height: 32px; 
-    }
+    } */
 }
 
 @media only screen and (max-width: 1200px) {
@@ -431,5 +483,11 @@ body {
 @media only screen and (max-width: 480px) {
     .content-container { 
         padding: 70px 35px; 
+    }
+
+    .card1, .card2, .card3, .card4, .card5 {
+        padding: 24px;
+        height: fit-content;
+        width: 100%;
     }
 }
